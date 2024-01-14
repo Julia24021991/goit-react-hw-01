@@ -5,6 +5,8 @@ export const Profile = ({ userData: { username, avatar, location, tag, stats } }
                 <img
                     src={avatar}
                     alt={username}
+                    width="180"
+                    height="180"
                     className="avatar"
                 />
                 <p className="name">{username}</p>
