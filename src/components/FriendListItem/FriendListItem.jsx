@@ -1,3 +1,4 @@
+// import css from "../FriendListItem.module.css"
 
 export const FriendListItem = ({ friend: { avatar, name, isOnline } }) => {
     return (

@@ -1,6 +1,4 @@
-import { TransactionHistoryItem } from "./TransactionHistoryItem"
-
-
+import { TransactionHistoryItem } from "../TransactionHistoryItem/TransactionHistoryItem"
 export const TransactionHistory = ({ items }) => {
     return (
         <table className="transaction-history">
